@@ -1,0 +1,41 @@
+body{
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+h1{
+    margin-left: 20px;
+    color: lightgray;
+    font-family: sans-serif;
+}
+input{
+    padding: 10px;
+    border-radius: 3px;
+ border: none;
+}
+button{
+    padding: 8px;
+    background-color:lightgray;
+    border: none;
+    border-radius: 3px;
+    font-size: medium;
+}
+#todo-list{
+    background-color: blueviolet;
+  padding: 30px 100px 200px 100px;
+  border: 2px solid transparent;
+  border-radius: 20px;
+}
+.para{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.opt{
+    display: flex;
+    margin-top: 10px;
+    gap: 20px;
+}
